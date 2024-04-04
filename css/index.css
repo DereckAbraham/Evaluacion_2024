@@ -1,0 +1,48 @@
+.root{
+    width: 95%;
+    height: 60rem;
+    margin: auto;
+    margin-top: 50rem;
+
+    display: flex;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.contenedor{
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 1.5rem;
+}
+
+.contenedor{
+    border: 1px solid black;
+    background-color: #c6c6c6;
+}
+
+.texto{
+    font-size: 2rem;
+}
+
+button{
+    
+    width: 10rem;
+    background-color: #c6c6c6;
+}
+
+.cambioBorde{
+    background-color: red;
+}
